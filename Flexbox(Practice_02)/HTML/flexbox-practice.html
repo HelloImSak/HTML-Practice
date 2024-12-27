@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../CSS/flexbox-practice.css" />
+  <!-- icon stars -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <!-- Typed.js -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <title>FlexBox Practice</title>
+</head>
+
+<body>
+  <!-- header -->
+  <header>
+    <!-- Logo -->
+    <div class="logo-container">
+      <i class='bx bxs-graduation'></i>
+      <small>E-Learning</small>
+    </div>
+    <!-- nav menu -->
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Course</a></li>
+        <li><a href="#">Enroll</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About Us</a></li>
+      </ul>
+    </nav>
+    <!-- button -->
+    <div>
+      <button>Login</button>
+      <button>Register</button>
+    </div>
+  </header>
+
+  <!-- main content -->
+  <main>
+    <!-- Most Popular Course -->
+    <section>
+      <!-- title -->
+      <div class="title" data-aos="fade-down">
+        <h2 id="element"></h2>
+        <p>Choose from hundreds of courses from specialist organizations.</p>
+      </div>
+      <!-- tabs -->
+      <div class="tabs-container" data-aos="flip-left">
+        <div class="tabs">
+          <button class="tab">Web Design</button>
+          <button class="tab">Development</button>
+          <button class="tab">Graphic Design</button>
+          <button class="tab">Marketing</button>
+          <button class="tab">Finance</button>
+        </div>
+      </div>
+      <!-- course cards -->
+      <div class="card-container">
+        <!-- card 1 -->
+        <div class="course-card" data-aos="fade-up-right">
+          <!-- image -->
+          <div class="image-container">
+            <i class="fa-solid fa-bookmark" style="color: #e47418;"></i>
+            <img src="https://cdn.dribbble.com/users/5180/screenshots/1705797/sketch.png" alt="Course Image" />
+          </div>
+          <!-- content -->
+          <div class="content">
+            <div class="label-heart">
+              <small class="beginner">Beginner</small>
+              <i class="fa-regular fa-heart" style="color: #141312;"></i>
+            </div>
+            <h3 class="line-clamp">Learn Sketch</h3>
+            <p class="line-clamp">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem itaque necessitatibus
+              reiciendis
+              excepturi
+              modi accusamus inventore neque explicabo molestias! Odit eum quaerat omnis repudiandae qui consectetur,
+              voluptas nostrum placeat est.</p>
+            <div class="label-star">
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star-half-stroke" style="color: #FFD43B;"></i>
+              <small>4.5/5.0</small>
+            </div>
+            <!-- horizon-line -->
+            <hr>
+            <div class="card-footer">
+              <p>
+                <i class="fa-regular fa-clock" style="color: #3b8cc9;"></i>
+                12h 56m
+              </p>
+              <p>
+                <i class="fa-solid fa-calendar-days" style="color: #3b6dc4;"></i>
+                56 lectures
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- card 2 -->
+        <div class="course-card" data-aos="fade-up-right">
+          <!-- image -->
+          <div class="image-container">
+            <img src="../images/image.png" alt="Course Image" />
+          </div>
+          <!-- content -->
+          <div class="content">
+            <div class="label-heart">
+              <small class="beginner">Beginner</small>
+              <i class="fa-regular fa-heart" style="color: #141312;"></i>
+            </div>
+            <h3 class="line-clamp">Learn Photoshop</h3>
+            <p class="line-clamp">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem itaque necessitatibus
+              reiciendis
+              excepturi
+              modi accusamus inventore neque explicabo molestias! Odit eum quaerat omnis repudiandae qui consectetur,
+              voluptas nostrum placeat est.</p>
+            <div class="label-star">
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
+              <small>4.0/5.0</small>
+            </div>
+            <!-- horizon-line -->
+            <hr>
+            <div class="card-footer">
+              <p>
+                <i class="fa-regular fa-clock" style="color: #3b8cc9;"></i>
+                12h 56m
+              </p>
+              <p>
+                <i class="fa-solid fa-calendar-days" style="color: #3b6dc4;"></i>
+                56 lectures
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- card 3 -->
+        <div class="course-card" data-aos="fade-up-left">
+          <!-- image -->
+          <div class="image-container">
+            <img src="../images/figmaLo.png" alt="Course Image" />
+          </div>
+          <!-- content -->
+          <div class="content">
+            <div class="label-heart">
+              <small class="advance">Advance</small>
+              <i class="fa-regular fa-heart" style="color: #141312;"></i>
+            </div>
+            <h3 class="line-clamp">Learn Figma</h3>
+            <p class="line-clamp">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem itaque necessitatibus
+              reiciendis
+              excepturi
+              modi accusamus inventore neque explicabo molestias! Odit eum quaerat omnis repudiandae qui consectetur,
+              voluptas nostrum placeat est.</p>
+            <div class="label-star">
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
+              <small>4.0/5.0</small>
+            </div>
+            <!-- horizon-line -->
+            <hr>
+            <div class="card-footer">
+              <p>
+                <i class="fa-regular fa-clock" style="color: #3b8cc9;"></i>
+                12h 56m
+              </p>
+              <p>
+                <i class="fa-solid fa-calendar-days" style="color: #3b6dc4;"></i>
+                56 lectures
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- card 4 -->
+        <div class="course-card" data-aos="fade-up-left">
+          <!-- image -->
+          <div class="image-container">
+            <i class="fa-solid fa-bookmark" style="color: #e47418;"></i>
+            <img src="../images/react.png" alt="Course Image" />
+          </div>
+          <!-- content -->
+          <div class="content">
+            <div class="label-heart">
+              <small class="beginner">Beginner</small>
+              <i class="fa-regular fa-heart" style="color: #141312;"></i>
+            </div>
+            <h3 class="line-clamp">Learn React.JS</h3>
+            <p class="line-clamp">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem itaque necessitatibus
+              reiciendis
+              excepturi
+              modi accusamus inventore neque explicabo molestias! Odit eum quaerat omnis repudiandae qui consectetur,
+              voluptas nostrum placeat est.</p>
+            <div class="label-star">
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star-half-stroke" style="color: #FFD43B;"></i>
+              <small>4.5/5.0</small>
+            </div>
+            <!-- horizon-line -->
+            <hr>
+            <div class="card-footer">
+              <p>
+                <i class="fa-regular fa-clock" style="color: #3b8cc9;"></i>
+                12h 56m
+              </p>
+              <p>
+                <i class="fa-solid fa-calendar-days" style="color: #3b6dc4;"></i>
+                56 lectures
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- card 5 -->
+        <div class="course-card" data-aos="fade-up-right">
+          <!-- image -->
+          <div class="image-container">
+            <img src="https://cdn.dribbble.com/users/5180/screenshots/1705797/sketch.png" alt="Course Image" />
+          </div>
+          <!-- content -->
+          <div class="content">
+            <div class="label-heart">
+              <small class="medium">Medium</small>
+              <i class="fa-regular fa-heart" style="color: #141312;"></i>
+            </div>
+            <h3 class="line-clamp">Learn Sketch</h3>
+            <p class="line-clamp">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem itaque necessitatibus
+              reiciendis
+              excepturi
+              modi accusamus inventore neque explicabo molestias! Odit eum quaerat omnis repudiandae qui consectetur,
+              voluptas nostrum placeat est.</p>
+            <div class="label-star">
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
+              <small>4.0/5.0</small>
+            </div>
+            <!-- horizon-line -->
+            <hr>
+            <div class="card-footer">
+              <p>
+                <i class="fa-regular fa-clock" style="color: #3b8cc9;"></i>
+                12h 56m
+              </p>
+              <p>
+                <i class="fa-solid fa-calendar-days" style="color: #3b6dc4;"></i>
+                56 lectures
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- card 6 -->
+        <div class="course-card" data-aos="fade-up-right">
+          <!-- image -->
+          <div class="image-container">
+            <i class="fa-solid fa-bookmark" style="color: #e47418;"></i>
+            <img src="../images/image.png" alt="Course Image" />
+          </div>
+          <!-- content -->
+          <div class="content">
+            <div class="label-heart">
+              <small class="advance">Advance</small>
+              <i class="fa-regular fa-heart" style="color: #141312;"></i>
+            </div>
+            <h3 class="line-clamp">Learn Photoshop</h3>
+            <p class="line-clamp">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem itaque necessitatibus
+              reiciendis
+              excepturi
+              modi accusamus inventore neque explicabo molestias! Odit eum quaerat omnis repudiandae qui consectetur,
+              voluptas nostrum placeat est.</p>
+            <div class="label-star">
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star-half-stroke" style="color: #FFD43B;"></i>
+              <small>4.5/5.0</small>
+            </div>
+            <!-- horizon-line -->
+            <hr>
+            <div class="card-footer">
+              <p>
+                <i class="fa-regular fa-clock" style="color: #3b8cc9;"></i>
+                30h 56m
+              </p>
+              <p>
+                <i class="fa-solid fa-calendar-days" style="color: #3b6dc4;"></i>
+                70 lectures
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- btn go to top -->
+    <a href="#" target="_top" class="btn-top">
+      <i class="fa-solid fa-arrow-up" style="color: #4110d5;"></i>
+    </a>
+  </main>
+  <!-- footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="social-icon">
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-google-plus"></i></a>
+        <a href=""><i class="fa-brands fa-youtube"></i></a>
+      </div>
+      <div class="footer-nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Our Team</a></li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <p>Copyright &copy;2024; Created by <span class="designer">Somatra</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- AOS JS -->
+  <script>
+    AOS.init({
+      duration: 1200,
+      once: true,
+    });
+  </script>
+
+  <!-- typed.js -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Most Popular Courses'],
+      typeSpeed: 70,
+      startDelay: 300,
+      backSpeed: 30,
+      backDelay: 500,
+      smartBackspace: true,
+      shuffle: true,
+      loop: true,
+      showCursor: false,
+    });
+  </script>
+  </script>
+
+</body>
+
+</html>
